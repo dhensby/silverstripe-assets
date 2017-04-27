@@ -102,7 +102,7 @@ class File extends DataObject implements ShortcodeHandler, AssetContainer, Thumb
      */
     const EDIT_ALL = 'FILE_EDIT_ALL';
 
-    private static $default_sort = "\"Name\"";
+    private static $default_sort = 'Name';
 
     /**
      * @config
